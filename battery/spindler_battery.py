@@ -10,5 +10,5 @@ class SpindlerBattery(Battery, ABC):
 
     def needs_service(self):
         from datetime import datetime
-        service_threshold_date = self.last_service_date.replace(year=self.last_service_date.year + 2)
+        service_threshold_date = self.last_service_date.replace(year=self.last_service_date.year + 3)
         return service_threshold_date < datetime.today().date()
