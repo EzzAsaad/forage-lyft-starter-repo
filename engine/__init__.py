@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
-from car import Car
 
-class Engine(Car, ABC):
+
+class Engine(ABC):
     def __init__(self):
         super().__init__()
     
