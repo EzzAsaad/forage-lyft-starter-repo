@@ -1,7 +1,7 @@
 from datetime import date
 from battery.nubbin_battery import NubbinBattery
 from engine.willoughby_engine import WilloughbyEngine
-from tire.octoprime_tire import OctoprimeTire
+from tires.octoprime_tire import OctoprimeTire
 from car import Car
 
 

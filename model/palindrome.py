@@ -1,7 +1,7 @@
 from datetime import date
 from engine.sternman_engine import SternmanEngine
 from battery.nubbin_battery import NubbinBattery
-from tire.octoprime_tire import OctoprimeTire
+from tires.octoprime_tire import OctoprimeTire
 from car import Car
 
 class Palindrome(Car):
